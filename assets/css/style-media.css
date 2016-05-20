@@ -4,9 +4,16 @@
 
 /*@media screen and (max-width: 980px) {*/	
 
+
+
 .header-stuff {
 	width: 96%;
-	padding: 0 2% 0 2%;
+	margin: 0 2% 0 2%;
+}
+
+.wrapper {
+	width: 96%;
+	margin: 0 2% 0 2%;	
 }
 
 .name {
@@ -64,7 +71,8 @@
 @media screen and (max-width: 768px) {
 
 .header-stuff {
-	width: 100%;
+	width: 94%;
+	padding: 0% 3%
 }
 
 .wrapper {
@@ -106,6 +114,16 @@
 
 header {
 	position: static;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+.header-stuff {
+	width: 100%;
+	padding: 0px;
 }
 
 .name {
